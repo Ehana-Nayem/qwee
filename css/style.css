@@ -1,0 +1,260 @@
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/** font-family: 'Lato', sans-serif;  */
+
+
+* {
+    margin: 0;
+    padding: 0:
+}
+
+body {font-family: 'Lato', sans-serif;height: 5000px;}
+
+header {
+    display: flex;
+    width: 100%;
+}
+.head{width: 1200px;margin: auto;}
+.menu {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    flex-basis: 30%;
+    max-width: 30%;
+}
+
+.logo img {
+    cursor: pointer;
+}
+.logo img:hover{
+    background-color: #efcbcb3b;
+}
+.option {
+    flex-basis: 70%;
+    max-width: 70%;
+}
+.option ul{display: flex;list-style-type: none;justify-content: flex-end;}
+
+.option ul li{margin-left: 45px;margin-top: 12px;}
+
+.option li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.option li a:hover{
+    color: #8bbda9;
+}
+.hero-ekramvai{
+    width: 100%;
+    height: 800px;
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.hero-ekramvai h1{padding-top: 200px;font-size: 120px;text-transform: uppercase;}
+.hero-ekramvai hr{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #7d7dde;
+    border: none;
+    height: 1px;
+}
+.hero-ekramvai p{
+    margin-top: 40px;
+}
+.buttton{width: 160px;margin-top: 45px;height: 54px;background-color: transparent;border: 1px solid #15A4FA;  cursor: pointer;}
+
+.buttton span{
+    color: white;
+  
+}
+.buttton:hover{background-color: #ea30305e;border: 1px solid #f10808;}
+
+
+.angle-down {margin-right: 37px;margin-top: 180px;}
+
+
+.angle-down a{color: white;}
+
+.angle-down a:hover{color: #d1e1e29e;}
+
+
+.text-part{background-color:#F6F9F9;padding-top: 60px;height: 270px;}
+
+.text-part h1{text-align: center;color: #3a414e;}
+
+.text-part p{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 34px;
+    text-align: center;
+    font-size: larger;
+    color: #9F9F9F;
+}
+
+.features{max-width: 1200px;margin: 0 auto;padding-top: 70px;}
+.features-row{
+    display: flex;
+}
+.feature{
+    width: 30%;
+    text-align: center;
+    padding: 3%;
+}
+.feature-icon{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: linear-gradient(to right, #48BAFF 50%,#5FCDFF 50%);
+}
+
+.feature-icon i{margin: 25px;font-size: 45px;color: white;}
+
+.feature h1{
+    margin-top: 30px;
+}
+.feature p{margin-top: 15px;margin-bottom: 60px;}
+
+
+.four-sec {
+    width: 100%;
+    height: 750px;
+    background-color: #F5F9FA;
+    padding-top: 60px;
+}
+
+.four-mead {
+    max-width: 1200px;
+    margin: auto
+}
+
+.four-mead .showcase {
+    text-align: center
+}
+
+.four-mead .showcase h1 {
+    font-size: 42px;
+    color: #343A51;
+}
+
+.four-mead .showcase p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #AFB0B2;
+}
+
+.gallery {
+    margin-top: 50px
+}
+
+.gall {
+    max-width: 385px;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+
+
+
+}
+
+.gall:nth-child(3),
+.gall:nth-child(6) {
+    margin-right: 0px
+}
+
+.gall:nth-child(4) {
+    margin-top: 20px
+}
+
+.gall:nth-child(5) {
+    margin-top: 20px
+}
+
+.gall:nth-child(6) {
+    margin-top: 20px
+}
+
+.gall .photo {
+    width: 385px;
+    height: 250px;
+
+}
+
+.gallery .gall .wrap {
+    background: rgba(21, 164, 250, .9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all ease .5s;
+    transform: rotate(20deg)(1, 1);
+
+
+}
+
+.gall img {}
+
+.gall i {
+    font-size: 28px;
+    border: 1px solid white;
+    padding: 10px 8px;
+    color: white;
+    opacity: 0;
+    transition: all ease 1s;
+
+}
+
+.gall #search {
+    position: absolute;
+    top: 100px;
+    left: 37%;
+
+}
+
+.gall #link {
+    top: 100px;
+    right: 37%;
+    position: absolute;
+
+}
+
+
+
+.gallery .gall:hover i {
+
+
+    opacity: 1
+}
+
+.gallery .gall:hover .wrap {
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
